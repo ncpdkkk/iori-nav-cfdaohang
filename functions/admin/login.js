@@ -68,7 +68,7 @@ function renderLoginPage(message = '') {
     <form method="post" action="/admin/login" novalidate>
       <div class="form-group">
         <label for="username">用户名</label>
-        <input type="text" id="username" name="name" required autocomplete="username" autofocus>
+        <input type="text" id="username" name="username" required autocomplete="username" autofocus>
       </div>
       <div class="form-group">
         <label for="password">密码</label>
